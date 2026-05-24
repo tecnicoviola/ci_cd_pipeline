@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/health', (req, res) => {
-  res.status(200).json({ status: 'no' });
+  res.status(200).json({ status: 'OK' });
 });
 
 module.exports = app;
